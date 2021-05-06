@@ -4,7 +4,7 @@ constructor() {
 
 var options = {isStatic: true}
 
-this.ground = Bodies.rectangle(450,550,1500,20,options)
+this.ground = Bodies.rectangle(600,550,1500,20,options)
 World.add(world, this.ground)
     
 }
